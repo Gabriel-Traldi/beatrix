@@ -6467,13 +6467,6 @@ indent-string@^4.0.0:
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
-indexeddb-orm@^4.0.0-alpha.3:
-  version "4.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/indexeddb-orm/-/indexeddb-orm-4.0.0-alpha.3.tgz#194068cc6924c471ff9ccae9c314c6310678e44e"
-  integrity sha512-txIeTfFN4T6fMMmYMgWljjzOs7PQpt6uRVDKp17eiz7jLHdBsPi12Ks15NMD7YoFIU5l3I+sCtq7ZYkystLi4g==
-  dependencies:
-    rimraf "^3.0.2"
-
 indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
