@@ -8,6 +8,7 @@ import {
   FlagFilled,
 } from '@ant-design/icons';
 
+import { Calendar } from 'antd';
 import GenericInputDate from '../../components/InputDate';
 
 import {

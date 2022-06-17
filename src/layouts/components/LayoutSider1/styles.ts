@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { Menu } from 'antd';
-import Menu1Image from './assets/979_114460.png';
+// import Menu1Image from './assets/979_114460.png';
 import LogoImage from './assets/979_114461.png';
 
 export const LayoutSider = styled.div`
@@ -22,7 +22,6 @@ export const Menu1 = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #131212;
-  background: url(${Menu1Image});
   background-repeat: no-repeat;
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
 `;

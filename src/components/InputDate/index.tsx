@@ -1,7 +1,10 @@
-import { GenericInputDateStyle } from './styles';
+import React from 'react';
 
-const GenericInputDate = ({ ...props }: any) => {
-  return <GenericInputDateStyle {...props} />;
+import type { DatePickerProps } from 'antd';
+import { DatePicker } from 'antd';
+
+const GenericInputDate: React.FC<DatePickerProps> = ({ ...props }) => {
+  return <DatePicker {...props} />;
 };
 
 export default GenericInputDate;

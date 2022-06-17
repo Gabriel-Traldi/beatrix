@@ -47,15 +47,10 @@ const FinalizarAnaliseModalPage = () => {
           onClick={navigateToReprovarAmostraModal}
           danger
           type="default"
-          onClick={navigateToReprovarAmostraModal}
         >
           Reprovar
         </ButtonReproval1>
-        <ButtonApproval
-          onClick={navigateToAprovarAmostraModal}
-          type="default"
-          onClick={navigateToAprovarAmostraModal}
-        >
+        <ButtonApproval onClick={navigateToAprovarAmostraModal} type="default">
           Aprovar
         </ButtonApproval>
       </Footer6>

@@ -1220,13 +1220,6 @@ export const ActionsRow = styled.div`
   justify-content: flex-end;
   align-items: center;
 `;
-export const ButtonsButton = styled(GenericCodeButton)`
-  position: static;
-  width: 133px;
-  height: 22px;
-  border-radius: 2px;
-  height: 22px;
-`;
 
 export const ButtonApproval5 = styled(GenericCodeButton)`
   width: 127px;

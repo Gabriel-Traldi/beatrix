@@ -56,7 +56,6 @@ const DescartedeMaterialPage = () => {
               onClick={navigateToCadastrarDescarteModal}
               type="default"
               icon={<PlusOutlined />}
-              onClick={navigateToCadastrarDescarteModal}
             >
               Cadastrar Descarte
             </ButtonNewDiscard>

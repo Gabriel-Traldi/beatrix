@@ -70,7 +70,6 @@ import {
   Wrapper11,
   StepsItemProgressIcon10,
   Text21,
-  Content10,
   Inprogress1,
   VectorComponentnavigationsteps18,
   StepsItemArrow8,
@@ -80,7 +79,6 @@ import {
   Wrapper12,
   StepsItemProgressIcon11,
   Text34,
-  Content11,
   Waiting4,
   VectorComponentnavigationsteps20,
   StepsItemArrow9,
@@ -90,7 +88,6 @@ import {
   Wrapper13,
   StepsItemProgressIcon12,
   Text35,
-  Content12,
   Waiting5,
   VectorComponentnavigationsteps22,
   StepsItemArrow10,
@@ -100,7 +97,6 @@ import {
   Wrapper14,
   StepsItemProgressIcon13,
   Text36,
-  Content13,
   Waiting6,
   VectorComponentnavigationsteps24,
   StepsItemArrow11,
@@ -110,7 +106,6 @@ import {
   Wrapper15,
   StepsItemProgressIcon14,
   Text37,
-  Content14,
   Waiting7,
   VectorComponentnavigationsteps26,
   Content43Row1Column51,
@@ -199,9 +194,6 @@ const PreCorkDetalhesPage = () => {
   const navigateToFinalizarPreCorkModal = () => {
     navigate('/landing-page/finalizar-pre-cork-modal');
   };
-  const navigateToFinalizarPreCorkModal = () => {
-    navigate('/landing-page/finalizar-pre-cork-modal');
-  };
 
   return (
     <PreCorkDetalhes>
@@ -217,7 +209,6 @@ const PreCorkDetalhesPage = () => {
               onClick={navigateToFinalizarPreCorkModal}
               type="primary"
               icon={<CheckOutlined />}
-              onClick={navigateToFinalizarPreCorkModal}
             >
               Finalizar
             </ButtonFinish>
@@ -418,9 +409,9 @@ const PreCorkDetalhesPage = () => {
                   <StepsItemProgressIcon10>
                     <Text21>1</Text21>
                   </StepsItemProgressIcon10>
-                  <Content10>
+                  <div>
                     <Inprogress1>Pesar</Inprogress1>
-                  </Content10>
+                  </div>
                 </Wrapper11>
                 <VectorComponentnavigationsteps18 />
               </InstanceComponentstepsitemnaviga10>
@@ -433,9 +424,9 @@ const PreCorkDetalhesPage = () => {
                   <StepsItemProgressIcon11>
                     <Text34>2</Text34>
                   </StepsItemProgressIcon11>
-                  <Content11>
+                  <div>
                     <Waiting4>Homogenizar</Waiting4>
-                  </Content11>
+                  </div>
                 </Wrapper12>
                 <VectorComponentnavigationsteps20 />
               </InstanceComponentstepsitemnaviga11>
@@ -448,9 +439,9 @@ const PreCorkDetalhesPage = () => {
                   <StepsItemProgressIcon12>
                     <Text35>3</Text35>
                   </StepsItemProgressIcon12>
-                  <Content12>
+                  <div>
                     <Waiting5>Controle de Qualidade</Waiting5>
-                  </Content12>
+                  </div>
                 </Wrapper13>
                 <VectorComponentnavigationsteps22 />
               </InstanceComponentstepsitemnaviga12>
@@ -463,9 +454,9 @@ const PreCorkDetalhesPage = () => {
                   <StepsItemProgressIcon13>
                     <Text36>4</Text36>
                   </StepsItemProgressIcon13>
-                  <Content13>
+                  <div>
                     <Waiting6>Envasar</Waiting6>
-                  </Content13>
+                  </div>
                 </Wrapper14>
                 <VectorComponentnavigationsteps24 />
               </InstanceComponentstepsitemnaviga13>
@@ -478,9 +469,9 @@ const PreCorkDetalhesPage = () => {
                   <StepsItemProgressIcon14>
                     <Text37>5</Text37>
                   </StepsItemProgressIcon14>
-                  <Content14>
+                  <div>
                     <Waiting7>Rotular</Waiting7>
-                  </Content14>
+                  </div>
                 </Wrapper15>
                 <VectorComponentnavigationsteps26 />
               </InstanceComponentstepsitemnaviga14>
@@ -538,7 +529,6 @@ const PreCorkDetalhesPage = () => {
             onClick={navigateToFinalizarPreCorkModal}
             type="primary"
             icon={<CheckOutlined />}
-            onClick={navigateToFinalizarPreCorkModal}
           >
             Finalizar
           </ButtonFinish1>

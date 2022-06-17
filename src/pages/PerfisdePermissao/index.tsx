@@ -84,7 +84,6 @@ const PerfisdePermissaoPage = () => {
               onClick={navigateToNovoPerfildePermissao}
               type="default"
               icon={<PlusOutlined />}
-              onClick={navigateToNovoPerfildePermissao}
             >
               Novo Perfil
             </ButtonNewProfile>

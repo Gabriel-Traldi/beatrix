@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { Form } from 'antd';
-import LoginImage from './assets/990_132730.png';
+// import LoginImage from './assets/990_132730.png';
 import SunChemicalLogoBlackImage from './assets/990_132732.png';
 import GenericCodeButton from '../../components/Button';
 

@@ -94,7 +94,6 @@ const UsuariosPage = () => {
               onClick={navigateToNovoUsuario}
               type="default"
               icon={<PlusOutlined />}
-              onClick={navigateToNovoUsuario}
             >
               Novo Usuário
             </ButtonNewUser>

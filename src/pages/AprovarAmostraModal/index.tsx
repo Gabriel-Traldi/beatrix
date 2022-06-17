@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { CloseOutlined, CloseOutlined } from '@ant-design/icons';
-import { Typography, Typography } from 'antd';
+import { CloseOutlined } from '@ant-design/icons';
+import { Typography } from 'antd';
 
 import {
   AprovarAmostraModal,
@@ -15,18 +15,18 @@ import {
   Footer3,
   ButtonBack1,
   ButtonApply,
-  AprovarAmostraModal1,
-  Header26,
-  Title183,
-  Aprovaranalise,
-  ButtonClose9,
-  Body40,
-  Row042,
-  InputFormItem24,
-  InputBasic24,
-  Footer8,
-  ButtonBack7,
-  ButtonApply5,
+  // AprovarAmostraModal1,
+  // Header26,
+  // Title183,
+  // Aprovaranalise,
+  // ButtonClose9,
+  // Body40,
+  // Row042,
+  // InputFormItem24,
+  // InputBasic24,
+  // Footer8,
+  // ButtonBack7,
+  // ButtonApply5,
 } from './styles';
 
 const AprovarAmostraModalPage = () => {
@@ -56,31 +56,31 @@ const AprovarAmostraModalPage = () => {
 
 export default AprovarAmostraModalPage;
 
-const AprovarAmostraModalPage = () => {
-  return (
-    <AprovarAmostraModal1>
-      <Header26>
-        <Title183>
-          <Aprovaranalise>Aprovar análise</Aprovaranalise>
-        </Title183>
-        <ButtonClose9 type="text" icon={<CloseOutlined />} />
-      </Header26>
-      <Body40>
-        <Row042>
-          <InputFormItem24
-            label={<Typography.Text ellipsis>Resultado</Typography.Text>}
-            name="resultado"
-          >
-            <InputBasic24 placeholder="The plugin cannot get any placeholder" />
-          </InputFormItem24>
-        </Row042>
-      </Body40>
-      <Footer8>
-        <ButtonBack7 type="default">Voltar</ButtonBack7>
-        <ButtonApply5 type="primary">Aplicar</ButtonApply5>
-      </Footer8>
-    </AprovarAmostraModal1>
-  );
-};
+// const AprovarAnaliseModalPage = () => {
+//   return (
+//     <AprovarAmostraModal1>
+//       <Header26>
+//         <Title183>
+//           <Aprovaranalise>Aprovar análise</Aprovaranalise>
+//         </Title183>
+//         <ButtonClose9 type="text" icon={<CloseOutlined />} />
+//       </Header26>
+//       <Body40>
+//         <Row042>
+//           <InputFormItem24
+//             label={<Typography.Text ellipsis>Resultado</Typography.Text>}
+//             name="resultado"
+//           >
+//             <InputBasic24 placeholder="The plugin cannot get any placeholder" />
+//           </InputFormItem24>
+//         </Row042>
+//       </Body40>
+//       <Footer8>
+//         <ButtonBack7 type="default">Voltar</ButtonBack7>
+//         <ButtonApply5 type="primary">Aplicar</ButtonApply5>
+//       </Footer8>
+//     </AprovarAmostraModal1>
+//   );
+// };
 
-export default AprovarAmostraModalPage;
+// export default AprovarAnaliseModalPage;
