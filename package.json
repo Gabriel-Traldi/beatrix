@@ -31,7 +31,6 @@
     "antd": "^4.16.2",
     "axios": "^0.21.1",
     "craco-less": "^1.17.1",
-    "immer": "^9.0.3",
     "indexeddb-orm": "^4.0.0-alpha.3",
     "lodash": "^4.17.21",
     "path-to-regexp": "^6.2.1",
