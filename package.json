@@ -7,9 +7,7 @@
     "lint": "eslint --fix ./src",
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "CI": "craco build"
+    "test": "craco test"
   },
   "private": true,
   "browserslist": {
@@ -48,7 +46,7 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.10",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
-    "@typescript-eslint/parser": "^4.26.1",
+    "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^7.28.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",

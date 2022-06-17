@@ -8,7 +8,6 @@ import {
 } from '@ant-design/icons';
 
 import { Typography } from 'antd';
-// import GenericSelect from '../../components/Select';
 
 import {
   AlterarMateriaisModal,
@@ -21,7 +20,7 @@ import {
   Row01,
   ButtonNewComponent,
   SelectInput,
-  // SelectInputOption,
+  SelectInputOption,
   InputBasic26,
   SelectInput4Row1Column41,
   Select19,
@@ -60,11 +59,7 @@ const AlterarMateriaisModalPage = () => {
       title1571: '34.400%',
       title1582: [
         <SelectInput allowClear placeholder="340-81:TAP WATER: PIPELINE">
-          {/* {?.pages.map(option => (
-    <SelectInputOption key={option.data.} value={option.data.}>
-      {option.data.}
-    </SelectInputOption>
-    ))} */}
+          <SelectInputOption />
         </SelectInput>,
       ],
       quantidadeKg23: [<InputBasic26 placeholder="50" />],

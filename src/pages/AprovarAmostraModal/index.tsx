@@ -56,7 +56,7 @@ const AprovarAmostraModalPage = () => {
 
 export default AprovarAmostraModalPage;
 
-// const AprovarAnaliseModalPage = () => {
+// const AprovarAmostraModalPage = () => {
 //   return (
 //     <AprovarAmostraModal1>
 //       <Header26>
@@ -83,4 +83,4 @@ export default AprovarAmostraModalPage;
 //   );
 // };
 
-// export default AprovarAnaliseModalPage;
+// export default AprovarAmostraModalPage;

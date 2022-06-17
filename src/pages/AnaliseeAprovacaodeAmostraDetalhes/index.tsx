@@ -157,18 +157,18 @@ import {
 } from './styles';
 
 const AnaliseeAprovacaodeAmostraDetalhesPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const navigateToReprovarAmostraModal = () => {
     navigate('/landing-page/reprovar-amostra-modal');
   };
 
-  const navigateToFinalizarAnaliseModal = () => {
-    // do something
+  const navigateToAprovarAmostraModal = () => {
+    navigate('/landing-page/aprovar-amostra-modal');
   };
 
-  const navigateToAprovarAmostraModal = () => {
-    // do something
+  const navigateToFinalizarAnaliseModal = () => {
+    navigate('/landing-page/finalizar-analise-modal');
   };
 
   const dataSourceMateriaisTable3 = [

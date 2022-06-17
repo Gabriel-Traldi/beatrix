@@ -67,6 +67,7 @@ import {
   Wrapper6,
   StepsItemProgressIcon5,
   Text2,
+  Content5,
   Inprogress,
   VectorComponentnavigationsteps9,
   StepsItemArrow4,
@@ -76,6 +77,7 @@ import {
   Wrapper7,
   StepsItemProgressIcon6,
   Text3,
+  Content6,
   Waiting,
   VectorComponentnavigationsteps11,
   StepsItemArrow5,
@@ -85,6 +87,7 @@ import {
   Wrapper8,
   StepsItemProgressIcon7,
   Text31,
+  Content7,
   Waiting1,
   VectorComponentnavigationsteps13,
   StepsItemArrow6,
@@ -94,6 +97,7 @@ import {
   Wrapper9,
   StepsItemProgressIcon8,
   Text32,
+  Content8,
   Waiting2,
   VectorComponentnavigationsteps15,
   StepsItemArrow7,
@@ -103,6 +107,7 @@ import {
   Wrapper10,
   StepsItemProgressIcon9,
   Text33,
+  Content9,
   Waiting3,
   VectorComponentnavigationsteps17,
 } from './styles';
@@ -316,9 +321,9 @@ const DetalhesOrdemdeProducaoPage = () => {
                   <StepsItemProgressIcon5>
                     <Text2>1</Text2>
                   </StepsItemProgressIcon5>
-                  <div>
+                  <Content5>
                     <Inprogress>Pesar</Inprogress>
-                  </div>
+                  </Content5>
                 </Wrapper6>
                 <VectorComponentnavigationsteps9 />
               </InstanceComponentstepsitemnaviga5>
@@ -331,9 +336,9 @@ const DetalhesOrdemdeProducaoPage = () => {
                   <StepsItemProgressIcon6>
                     <Text3>2</Text3>
                   </StepsItemProgressIcon6>
-                  <div>
+                  <Content6>
                     <Waiting>Homogenizar</Waiting>
-                  </div>
+                  </Content6>
                 </Wrapper7>
                 <VectorComponentnavigationsteps11 />
               </InstanceComponentstepsitemnaviga6>
@@ -346,9 +351,9 @@ const DetalhesOrdemdeProducaoPage = () => {
                   <StepsItemProgressIcon7>
                     <Text31>3</Text31>
                   </StepsItemProgressIcon7>
-                  <div>
+                  <Content7>
                     <Waiting1>Controle de Qualidade</Waiting1>
-                  </div>
+                  </Content7>
                 </Wrapper8>
                 <VectorComponentnavigationsteps13 />
               </InstanceComponentstepsitemnaviga7>
@@ -361,9 +366,9 @@ const DetalhesOrdemdeProducaoPage = () => {
                   <StepsItemProgressIcon8>
                     <Text32>4</Text32>
                   </StepsItemProgressIcon8>
-                  <div>
+                  <Content8>
                     <Waiting2>Envasar</Waiting2>
-                  </div>
+                  </Content8>
                 </Wrapper9>
                 <VectorComponentnavigationsteps15 />
               </InstanceComponentstepsitemnaviga8>
@@ -376,9 +381,9 @@ const DetalhesOrdemdeProducaoPage = () => {
                   <StepsItemProgressIcon9>
                     <Text33>5</Text33>
                   </StepsItemProgressIcon9>
-                  <div>
+                  <Content9>
                     <Waiting3>Rotular</Waiting3>
-                  </div>
+                  </Content9>
                 </Wrapper10>
                 <VectorComponentnavigationsteps17 />
               </InstanceComponentstepsitemnaviga9>

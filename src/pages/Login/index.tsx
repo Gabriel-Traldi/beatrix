@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Typography } from 'antd';
-import { CalendarFilled } from '@ant-design/icons';
+import { Calendar } from '@ant-design/icons';
 import GenericFormItem from '../../components/FormItem';
 import GenericInputDate from '../../components/InputDate';
 import GenericCodeButton from '../../components/Button';
@@ -28,7 +28,7 @@ const LoginPage = () => {
             <GenericInputDate
               placeholder="Select time"
               format="DD/MM/YYYY"
-              suffixIcon={<CalendarFilled />}
+              suffixIcon={<Calendar />}
             />
           </GenericFormItem>
           <GenericFormItem
@@ -38,7 +38,7 @@ const LoginPage = () => {
             <GenericInputDate
               placeholder="Select time"
               format="DD/MM/YYYY"
-              suffixIcon={<CalendarFilled />}
+              suffixIcon={<Calendar />}
             />
           </GenericFormItem>
           <Actions1>
