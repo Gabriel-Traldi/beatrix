@@ -38,11 +38,7 @@ import {
   Title154,
   VinculodeEquipamento,
   Body27,
-  Checkbox6,
-  Checkbox7,
-  Checkbox8,
-  Checkbox9,
-  Checkbox10,
+  CheckboxCustom,
 } from './styles';
 
 const NovoUsuarioPage = () => {
@@ -118,11 +114,11 @@ const NovoUsuarioPage = () => {
             <VinculodeEquipamento>Vínculo de Equipamento</VinculodeEquipamento>
           </Title154>
           <Body27>
-            <Checkbox6>Equipamento 01</Checkbox6>
-            <Checkbox7>Equipamento 02</Checkbox7>
-            <Checkbox8>Equipamento 03</Checkbox8>
-            <Checkbox9>Equipamento 04</Checkbox9>
-            <Checkbox10>Equipamento 05</Checkbox10>
+            <CheckboxCustom>Equipamento 01</CheckboxCustom>
+            <CheckboxCustom>Equipamento 02</CheckboxCustom>
+            <CheckboxCustom>Equipamento 03</CheckboxCustom>
+            <CheckboxCustom>Equipamento 04</CheckboxCustom>
+            <CheckboxCustom>Equipamento 05</CheckboxCustom>
           </Body27>
         </Card027>
       </Body25>

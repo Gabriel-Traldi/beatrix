@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Table } from 'antd';
+import { Table, Select as SelectANTD } from 'antd';
 import GenericCodeButton from '../../components/Button';
 import GenericSelect from '../../components/Select';
 import GenericInput from '../../components/Input';
@@ -115,7 +115,7 @@ export const SelectInput = styled(GenericSelect)`
   position: static;
 `;
 
-export const SelectInputOption = styled(Select.Option)``;
+export const SelectInputOption = styled(SelectANTD.Option)``;
 
 export const InputBasic26 = styled(GenericInput)`
   width: 102px;

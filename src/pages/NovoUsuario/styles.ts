@@ -465,12 +465,4 @@ export const Body27 = styled.div`
   align-items: flex-start;
   padding: 16px;
 `;
-export const Checkbox22 = styled(Checkbox)``;
-
-export const Checkbox23 = styled(Checkbox)``;
-
-export const Checkbox24 = styled(Checkbox)``;
-
-export const Checkbox25 = styled(Checkbox)``;
-
-export const Checkbox26 = styled(Checkbox)``;
+export const CheckboxCustom = styled(Checkbox)``;
