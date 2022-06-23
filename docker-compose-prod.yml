@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  app-prod:
+      container_name: sun-chemical-frontend-prod
+      build:
+        context: .
+        dockerfile: dockerfile-prod
+      ports:
+        - '8080:80'
