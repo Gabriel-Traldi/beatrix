@@ -1,10 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+
+import './config/i18n';
+
 import App from './App';
 
-ReactDOM.render(
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement!);
+
+root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root'),
 );
