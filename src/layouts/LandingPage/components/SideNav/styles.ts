@@ -40,7 +40,3 @@ export const MenuGroup = styled(Menu)`
   flex: 1;
   width: 100%;
 `;
-
-export const SubMenu = styled(Menu.SubMenu)``;
-
-export const MenuItem = styled(Menu.Item)``;
