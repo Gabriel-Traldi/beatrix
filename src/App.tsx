@@ -1,15 +1,18 @@
-import 'antd/dist/antd.less';
 import { BrowserRouter } from 'react-router-dom';
-import GlobalStyle from './styles/global';
 
-import LayoutRoutes from './routes';
+import 'antd/dist/antd.less';
+
+import GlobalStyle from './styles/global';
+import { RouterConfig } from './navigation/RouterConfig';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <GlobalStyle />
-      <LayoutRoutes />
-    </BrowserRouter>
+      <BrowserRouter>
+        <RouterConfig />
+      </BrowserRouter>
+    </>
   );
 }
 

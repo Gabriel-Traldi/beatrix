@@ -1,15 +1,12 @@
 import { memo } from 'react';
 import { Outlet } from 'react-router-dom';
 
-import { Header, SideNav } from './components';
 import { Container, Content, Body } from './styles';
 
-const LandingPage = () => {
+const Authorization = () => {
   return (
     <Container>
-      <SideNav />
       <Body>
-        <Header />
         <Content>
           <Outlet />
         </Content>
@@ -18,4 +15,4 @@ const LandingPage = () => {
   );
 };
 
-export default memo(LandingPage);
+export default memo(Authorization);
