@@ -4,6 +4,7 @@ import Authorization from '../layouts/Authorization';
 import LandingPage from '../layouts/LandingPage';
 
 import Login from '../pages/Login';
+import Suspense from './components/Suspsense';
 
 import * as CONSTANTS from './constants';
 
@@ -13,7 +14,14 @@ export const RouterConfig = () => (
       <Route index element={<Login />} />
     </Route>
     <Route path={CONSTANTS.ROOT} element={<LandingPage />}>
-      <Route path={CONSTANTS.ROOT} element={<h1>Teste</h1>} />
+      <Route
+        path={CONSTANTS.ROOT}
+        element={
+          <Suspense>
+            <h1>Teste</h1>
+          </Suspense>
+        }
+      />
     </Route>
   </Routes>
 );
