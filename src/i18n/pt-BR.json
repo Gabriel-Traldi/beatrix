@@ -1,0 +1,19 @@
+{
+    "aside_nav": {
+        "admin": "Administrativo",
+        "cleaning_level": "Nível de Limpeza",
+        "dashboard": "Dashboard",
+        "discard": "Descarte",
+        "op_panel": "Painel de OPs",
+        "op_prioritization": "Priorização de OPs",
+        "op_revision": "Revisão de OP",
+        "pcp": "PCP",
+        "permission_profile": "Perfis de Permissão",
+        "pre_cork": "Pré-Cork",
+        "production": "Produção",
+        "production_orders": "Ordens de Produção",
+        "quality_control": "Controle de Qualidade",
+        "review_approval": "Análise e Aprovação",
+        "users": "Usuários"
+    }
+}
