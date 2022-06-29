@@ -28,7 +28,7 @@ import {
 } from './styles';
 
 const UsuariosPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dataSourceUsuariosTable = [
     {
       key: '0',

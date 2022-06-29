@@ -16,7 +16,7 @@ import {
 } from './styles';
 
 const DescartedeMaterialPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dataSourceDescartedeMaterialTable = [
     {
       key: '0',

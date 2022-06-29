@@ -5,8 +5,8 @@ import './config/i18n';
 
 import App from './App';
 
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement!);
+const rootElement = document.getElementById('root') as HTMLElement;
+const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>

@@ -125,7 +125,7 @@ import {
 } from './styles';
 
 const RevisaodeOrdensdeProducaoDetalhesPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dataSourceMateriaisTable = [
     {
       key: '0',

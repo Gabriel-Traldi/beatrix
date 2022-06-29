@@ -18,7 +18,7 @@ import {
 } from './styles';
 
 const FinalizarAnaliseModalPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const navigateToReprovarAmostraModal = () => {
     navigate('/landing-page/reprovar-amostra-modal');

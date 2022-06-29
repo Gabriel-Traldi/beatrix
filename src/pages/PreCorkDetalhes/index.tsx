@@ -121,7 +121,7 @@ import {
 } from './styles';
 
 const PreCorkDetalhesPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dataSourceMateriaisTable2 = [
     {
       key: '0',

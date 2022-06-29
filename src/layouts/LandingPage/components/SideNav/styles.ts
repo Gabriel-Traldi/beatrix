@@ -36,6 +36,7 @@ export const Logo = styled.div`
   padding: 32px;
   background-repeat: no-repeat;
 `;
+
 export const MenuGroup = styled(Menu)`
   flex: 1;
   width: 100%;

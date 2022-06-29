@@ -29,7 +29,7 @@ export const fetcher = <T>({
 };
 
 export const useLoadMore = <T>(
-  url: string | null,
+  url: string,
   params?: Record<string, unknown>,
 ) => {
   const context = useInfiniteQuery<
@@ -38,7 +38,7 @@ export const useLoadMore = <T>(
     GetInfinitePagesInterface<T>,
     QueryKeyT
   >(
-    [url!, params],
+    [url, params],
     ({ queryKey, pageParam = 1 }: QueryFunctionContext<QueryKeyT>) =>
       fetcher({ queryKey, pageParam, meta: { persistent: true } }),
     {
@@ -53,7 +53,7 @@ export const useLoadMore = <T>(
 };
 
 export const usePrefetch = <T>(
-  url: string | null,
+  url: string,
   params?: Record<string, unknown>,
 ) => {
   const queryClient = useQueryClient();
@@ -64,19 +64,19 @@ export const usePrefetch = <T>(
     }
 
     queryClient.prefetchQuery<T, Error, T, QueryKeyT>(
-      [url!, params],
+      [url, params],
       ({ queryKey }) => fetcher({ queryKey, meta: { persistent: true } }),
     );
   };
 };
 
 export const useFetch = <T>(
-  url: string | null,
+  url: string,
   params?: Record<string, unknown>,
   config?: UseQueryOptions<T, Error, T, QueryKeyT>,
 ) => {
   const context = useQuery<T, Error, T, QueryKeyT>(
-    [url!, params],
+    [url, params],
     ({ queryKey }) => fetcher({ queryKey, meta: { persistent: true } }),
     {
       enabled: !!url,
@@ -97,21 +97,21 @@ const useGenericMutation = <T, S>(
 
   return useMutation<AxiosResponse, AxiosError, T | S>(func, {
     onMutate: async data => {
-      await queryClient.cancelQueries([url!, params]);
+      await queryClient.cancelQueries([url, params]);
 
-      const previousData = queryClient.getQueryData([url!, params]);
+      const previousData = queryClient.getQueryData([url, params]);
 
-      queryClient.setQueryData<T>([url!, params], oldData => {
-        return updater ? updater(oldData!, data as S) : (data as T);
+      queryClient.setQueryData<T>([url, params], oldData => {
+        return updater && oldData ? updater(oldData, data as S) : (data as T);
       });
 
       return previousData;
     },
     onError: (err, _, context) => {
-      queryClient.setQueryData([url!, params], context);
+      queryClient.setQueryData([url, params], context);
     },
     onSettled: () => {
-      queryClient.invalidateQueries([url!, params]);
+      queryClient.invalidateQueries([url, params]);
     },
   });
 };

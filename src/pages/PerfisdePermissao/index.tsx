@@ -28,7 +28,7 @@ import {
 } from './styles';
 
 const PerfisdePermissaoPage = () => {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dataSourcePerfisdePermissaoTable = [
     {
       key: '0',
